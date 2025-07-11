@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rag-books"
+version = "0.1.0"
+description = ""
+authors = ["Artur Dernst <artur.dernst@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[[tool.poetry.packages]]
+include = "src"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
