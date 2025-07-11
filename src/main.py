@@ -24,12 +24,12 @@ for part in org_book.values():
 
 # paragraphs = paragraphs[:10]
 
-embeddings = embed_model._embed_paragraphs(paragraphs)
 
 book_index_path = Path(__file__).parents[1] / "book_index.faiss"
 if book_index_path.exists():
     index = faiss.read_index(str(book_index_path))
 else:
+    embeddings = embed_model._embed_paragraphs(paragraphs)
     index = index(embeddings)
 
 
