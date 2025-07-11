@@ -1,5 +1,6 @@
 import faiss
 import numpy as np
+from pathlib import Path
 
 
 def index(embeddings: np.ndarray):
@@ -9,5 +10,6 @@ def index(embeddings: np.ndarray):
     index.add(embeddings)
 
     # Optionally: persist index
-    faiss.write_index(index, "../../book_index.faiss")
+    print(f"writing index to: {Path(__file__).parents[2] / "book_index.faiss"}")
+    faiss.write_index(index, str(Path(__file__).parents[2] / "book_index.faiss"))
     return index

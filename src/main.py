@@ -3,6 +3,8 @@ from src.preprocess.embed import EmbeddingModel
 from src.preprocess.store import index
 from src.retrieve.retrieve import retrieve
 
+import faiss
+
 from pathlib import Path
 
 
@@ -20,8 +22,15 @@ for part in org_book.values():
     for chapter in part.values():
         paragraphs += chapter
 
+# paragraphs = paragraphs[:10]
+
 embeddings = embed_model._embed_paragraphs(paragraphs)
-index = index(embeddings)
+
+book_index_path = Path(__file__).parents[1] / "book_index.faiss"
+if book_index_path.exists():
+    index = faiss.read_index(str(book_index_path))
+else:
+    index = index(embeddings)
 
 
 # QUICK POC
