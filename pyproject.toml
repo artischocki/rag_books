@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
+sentence-transformers = "^5.0.0"
+faiss-cpu = "^1.11.0"
+openai = "^1.95.1"
 
 
 [[tool.poetry.packages]]
