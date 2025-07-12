@@ -33,5 +33,8 @@ generator = OpenAIGenerator(embed_model, faiss_index.index, paragraphs)
 
 
 # print(answer("Which characters are there?"))
-print(generator.answer("Whose father is Nicolai Lvovitch?"))
-print(generator.answer("Who is Mussolini?"))
+# print(generator.answer("Whose father is Nicolai Lvovitch?"))
+# print(generator.answer("Who is Mussolini?"))
+while True:
+    question = input("Question: ")
+    print(f"Answer:   {generator.answer(question)}\n")
