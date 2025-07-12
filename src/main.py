@@ -6,9 +6,7 @@ from src.generate.generate import OpenAIGenerator
 from pathlib import Path
 
 
-org_book = load_organized_book(
-    Path("/home/artur/code/translate-tts/test/translate/org_book.json")
-)
+org_book = load_organized_book(Path(__file__).parents[1] / "test" / "org_book.json")
 
 embed_model = EmbeddingModel()
 faiss_index = FaissIndex()
