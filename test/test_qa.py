@@ -7,6 +7,8 @@ from .teacher_llm import evaluate_with_llm
 
 from src.rag import BookRag
 
+TEST_NAME = "test_result_adapted_prompt"
+
 
 with open(Path(__file__).parent / "resources" / "qna_pairs.json") as f:
     all_qna_pairs = json.load(f)
@@ -24,7 +26,7 @@ BOOK_RAG = BookRag(org_book_path)
 
 CLIENT = OpenAI()
 
-OUTPUT_JSON = Path(__file__).parent / "eval_results" / "test_result_no_adaptations.json"
+OUTPUT_JSON = Path(__file__).parent / "eval_results" / f"{TEST_NAME}.json"
 if OUTPUT_JSON.exists():
     raise FileExistsError(
         f"The file {OUTPUT_JSON} already exists. Please change the name of the output json, so the results can later be evaluated."
@@ -40,8 +42,8 @@ for suite_name, qa_list in SUITES:
 
 @pytest.mark.parametrize("suite_name, question, reference", cases)
 def test_single_qa(request, suite_name, question, reference):
-    generated = BOOK_RAG.answer(question)
-    result = evaluate_with_llm(generated, reference, CLIENT)
+    answer, context_used = BOOK_RAG.answer(question)
+    result = evaluate_with_llm(answer, reference, CLIENT)
 
     # load output json or init
     if os.path.exists(OUTPUT_JSON):
@@ -56,9 +58,10 @@ def test_single_qa(request, suite_name, question, reference):
     suite_list.append(
         {
             "question": question,
-            "reference": reference,
-            "generated": generated,
+            "answer": answer,
             "correct": correct,
+            "reference": reference,
+            "context_used": context_used,
             "explanation": result["explanation"],
         }
     )
@@ -69,6 +72,6 @@ def test_single_qa(request, suite_name, question, reference):
     # assert after writing
     assert result["correct"], (
         f"[{suite_name}] Q: {question}\n"
-        f"Ref: {reference}\nGot: {generated}\n"
+        f"Ref: {reference}\nGot: {answer}\n"
         f"Explain: {result['explanation']}"
     )

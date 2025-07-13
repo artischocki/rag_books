@@ -1,0 +1,150 @@
+{
+    "Factual / Recall": [
+        {
+            "question": "Where does Prince Myshkin first meet Nastasya Filippovna?",
+            "reference": "At Totsky\u2019s party in Petersburg, when Myshkin interrupts a cruel spectacle in which guests are betting on who will secure Nastasya\u2019s attention.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer. The student did not provide the correct information about when Myshkin interrupts a cruel spectacle at Totsky\u2019s party in Petersburg."
+        },
+        {
+            "question": "What illness had Prince Myshkin been treated for in Switzerland?",
+            "reference": "Epilepsy.",
+            "generated": "Prince Myshkin had been treated for epilepsy in Switzerland.",
+            "correct": true,
+            "explanation": "The student's answer correctly identifies that Prince Myshkin had been treated for epilepsy, which matches the reference answer."
+        },
+        {
+            "question": "Who is the daughter of General Epanchin that befriends Myshkin?",
+            "reference": "Aglaya Epanchin.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        },
+        {
+            "question": "What object does Rogozhin obsessively carry after his first meeting with Nastasya Filippovna?",
+            "reference": "He first gives her a large sum of money (Part I, Ch 1) and later keeps a nail-studded dagger to guard it.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        },
+        {
+            "question": "Which family invites Myshkin to live with them upon his arrival in Petersburg?",
+            "reference": "The Epanchin family.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        }
+    ],
+    "Comprehension": [
+        {
+            "question": "Why does Myshkin return to Russia at the novel\u2019s start?",
+            "reference": "Because his treatment for epilepsy in Switzerland has finished, and he wishes to reconnect with his homeland and distant relations.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        },
+        {
+            "question": "What motivates Nastasya Filippovna\u2019s self-destructive behavior?",
+            "reference": "Her history of abuse by Totsky leaves her with deep self-loathing; she oscillates between longing for redemption and a desire to punish herself.",
+            "generated": "Nastasia Philipovna's self-destructive behavior appears to be motivated by a deep sense of loathing and contempt for a man she is involved with. The text indicates that she is capable of ruining herself and even engaging in actions that could lead to severe consequences, such as imprisonment, simply for the pleasure of injuring this man. Additionally, it is suggested that she values nothing in the world, including herself, which further underscores her willingness to act destructively. Her actions seem to stem from a desire to exert power over someone she despises, reflecting a complex interplay of emotions that drives her behavior.",
+            "correct": false,
+            "explanation": "The student's answer does not correctly match the reference answer. The student discusses Nastasia Philipovna's self-destructive behavior and her contempt for a man she is involved with, but does not mention her history of abuse by Totsky, her longing for redemption, or her desire to punish herself."
+        },
+        {
+            "question": "How does Aglaya Epanchin\u2019s view of Myshkin change over the course of the novel?",
+            "reference": "She moves from seeing him as an eccentric na\u00eff (Part I, Ch 2) to admiring his moral integrity\u2014yet grows frustrated by his inability to navigate social conventions (Part IV, Ch 1\u20133).",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about the character's transition in perception."
+        },
+        {
+            "question": "What role does the \u201cgolden doll\u201d metaphor play in Prince Myshkin\u2019s self-understanding?",
+            "reference": "It reflects his sense of being both cherished and isolated: though people regard him as precious, he feels trapped in a gilded cage of others\u2019 expectations.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        },
+        {
+            "question": "Why does Myshkin give Nastasya Filippovna all his money at the trial scene?",
+            "reference": "To demonstrate that he values her above material considerations and to shame the men treating her as a commodity.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        }
+    ],
+    "Analysis": [
+        {
+            "question": "In what ways is Myshkin\u2019s epilepsy symbolic of spiritual insight?",
+            "reference": "His seizures, while a medical ailment, punctuate moments of profound moral clarity\u2014suggesting that true vision may require a form of \u201cotherness\u201d or suffering.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        },
+        {
+            "question": "Compare the approaches to love taken by Myshkin and Rogozhin.",
+            "reference": "Myshkin\u2019s love is selfless and sacrificial; Rogozhin\u2019s is possessive and jealous, driven by obsession and the need to possess.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        },
+        {
+            "question": "How does Dostoevsky use secondary characters like Ivolgin (\u201cHippolyte\u201d) to contrast with Myshkin?",
+            "reference": "Hippolyte\u2019s cynical atheism and manipulative pragmatism highlight Myshkin\u2019s innate faith and altruism, underscoring the novel\u2019s moral tensions.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        },
+        {
+            "question": "Discuss the social critique embedded in the Petersburg setting.",
+            "reference": "The city represents moral decay and superficiality: salons rife with gossip, gambling, and cruelty contrast sharply with Myshkin\u2019s purity.",
+            "generated": "The provided text contains several elements that suggest a social critique of the Petersburg setting:\n\n- **Change and Disconnection**: The mention of Petersburg being changed to the extent that even those familiar with it must \"relearn\" what they knew indicates a sense of disconnection from the past and a critique of the evolving social landscape. This suggests that the city and its society may be losing their essence or identity.\n\n- **Criticism of the Upper Class**: The prince expresses a deep-seated fear and skepticism about the upper stratum of Russian society. He describes it as \"worthless,\" suggesting that it has outlived its time and is only fit to die. This reflects a critique of the superficiality and pettiness of the interests and habits of the elite, implying that they are hindering progress and the emergence of new, more deserving leaders.\n\n- **Anxiety and Curiosity**: The prince's \"anguish\" and \"anxious curiosity\" about the members of the upper class reveal a desire to understand the truth behind the negative perceptions he has heard. This indicates a broader critique of societal norms and the reputations that precede individuals, suggesting that the reality may be more complex than the prevailing narratives.\n\n- **Contrast with Compassionate Figures**: The reference to the old state counsellor who devoted his life to helping prisoners contrasts sharply with the critique of the upper class. This highlights a potential moral failing among the elite, who are depicted as self-absorbed and disconnected from the struggles of the common people.\n\nOverall, the excerpts suggest a critique of the social dynamics in Petersburg, particularly focusing on the shortcomings of the upper class and the need for a reevaluation of societal values and priorities.",
+            "correct": false,
+            "explanation": "The student's answer is incorrect because it does not match the reference answer. The reference answer talks about the city representing moral decay and superficiality, contrasting with Myshkin\u2019s purity. The student's answer, however, discusses change and disconnection, criticism of the upper class, anxiety and curiosity, and contrast with compassionate figures, without mentioning the city's representation of moral decay and superficiality or Myshkin\u2019s purity."
+        },
+        {
+            "question": "How does the motif of mirrors and reflections function in the narrative?",
+            "reference": "Mirrors underscore themes of self-perception versus reality: characters often confront distorted reflections of their own desires, guilt, and illusions.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about the themes underscored by mirrors in literature."
+        }
+    ],
+    "Synthesis / Evaluation": [
+        {
+            "question": "Trace the evolution of Myshkin\u2019s relationships with both Nastasya Filippovna and Aglaya. What does this duality reveal about his character?",
+            "reference": "Myshkin\u2019s vacillation\u2014his desire to save Nastasya while drawn to Aglaya\u2019s innocence\u2014reveals boundless compassion but also his tragic inability to reconcile conflicting moral obligations.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about Myshkin's vacillation, his compassion, or his inability to reconcile conflicting moral obligations."
+        },
+        {
+            "question": "Argue whether Myshkin\u2019s innocence ultimately helps or harms those around him.",
+            "reference": "Position A: His innocence uplifts and challenges others (e.g. Aglaya\u2019s growth). Position B: It enables abuse\u2014Nastasya\u2019s torment intensifies and Rogozhin\u2019s obsession ends in violence.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer. The student did not provide any information related to the positions A and B."
+        },
+        {
+            "question": "Compare the theme of redemption in The Idiot with that in another Dostoevsky novel (e.g., Crime and Punishment).",
+            "reference": "In Crime and Punishment, redemption follows suffering and confession (Raskolnikov\u2019s moral agony), whereas in The Idiot, it\u2019s embodied by an almost Christ-like purity that feels both aspirational and impractical.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about the themes of redemption in 'Crime and Punishment' and 'The Idiot'."
+        },
+        {
+            "question": "How might The Idiot read differently if told from Nastasya Filippovna\u2019s perspective?",
+            "reference": "We\u2019d gain direct access to her trauma and inner conflict\u2014making her self-destructive choices more sympathetic.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer."
+        },
+        {
+            "question": "Evaluate Dostoevsky\u2019s use of \u201cthe idiot\u201d as both a narrative device and a philosophical figure.",
+            "reference": "As a device, Myshkin\u2019s naive outsider status exposes societal hypocrisies; philosophically, he embodies the Christian ideal of agape, challenging readers to consider the costs of pure goodness.",
+            "generated": "The provided text does not contain that information.",
+            "correct": false,
+            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about Myshkin's role or significance."
+        }
+    ]
+}

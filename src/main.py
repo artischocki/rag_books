@@ -11,4 +11,4 @@ book_rag = BookRag(org_book_path)
 # print(generator.answer("Who is Mussolini?"))
 while True:
     question = input("Question: ")
-    print(f"Answer:   {book_rag.answer(question)}\n")
+    print(f"Answer:   {book_rag.answer(question)[0]}\n")

@@ -20,15 +20,31 @@ class OpenAIGenerator:
             self._embedding_model._embed_model, self._index, self._paragraphs, question
         )
         context = "\n\n---\n\n".join(docs)
-        prompt = (
-            "You are a helpful assistant. Use the following excerpts from a book to answer the question.\n\n"
-            f"{context}\n\n"
-            f"Question: {question}\nAnswer:"
-        )
+        prompt = f"""
+            You are an assistant that answers questions related to a book.
+
+            The excerpts below were retrieved from the book.
+            They will help you answer the question.
+
+            1. Focus strictly on the provided excerpts:
+               - Do not introduce facts or details that are not present in the excerpts.
+               - If the answer isn’t contained in the excerpts, say:  
+                 'The provided text does not contain that information.'
+            2. Answer style:
+               - Be helpful, precise, and to the point.
+               - For interpretive or analytical questions, make clear that your interpretation is grounded in the text.
+               - If the user asks for a summary, synthesize only what’s in the retrieved excerpts.
+            
+            Excerpts:
+            {context}
+
+            Question:
+            {question}
+            """
         resp = self._client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.1,
+            temperature=0,
             max_tokens=512,
         )
-        return resp.choices[0].message.content.strip()
+        return resp.choices[0].message.content.strip(), docs
