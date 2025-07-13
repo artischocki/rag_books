@@ -2,149 +2,73 @@
     "Factual / Recall": [
         {
             "question": "Where does Prince Myshkin first meet Nastasya Filippovna?",
-            "reference": "At Totsky\u2019s party in Petersburg, when Myshkin interrupts a cruel spectacle in which guests are betting on who will secure Nastasya\u2019s attention.",
-            "generated": "The provided text does not contain that information.",
+            "answer": "No information.",
             "correct": false,
-            "explanation": "The student's answer does not match the reference answer. The student did not provide the correct information about when Myshkin interrupts a cruel spectacle at Totsky\u2019s party in Petersburg."
+            "reference": "At Totsky\u2019s party in Petersburg, when Myshkin interrupts a cruel spectacle in which guests are betting on who will secure Nastasya\u2019s attention.",
+            "context_used": [
+                "\u201cWhere is Nastasia Philipovna?\u201d asked the prince, breathlessly.",
+                "But Nastasia Philipovna had now risen and advanced to meet the prince.",
+                "\u201cI am very glad indeed to have met you here, Colia,\u201d said the prince. \u201cCan you do something for me? I must see Nastasia Philipovna, and I asked Ardalion Alexandrovitch just now to take me to her house, but he has gone to sleep, as you see. Will you show me the way, for I do not know the street? I have the address, though; it is close to the Grand Theatre.\u201d",
+                "\u201cWas Nastasia Philipovna with him?\u201d",
+                "A couple of weeks went by, and suddenly the general and his wife were once more gloomy and silent, and the ice was as firm as ever. The fact was, the general, who had heard first, how Nastasia Philipovna had fled to Moscow and had been discovered there by Rogojin; that she had then disappeared once more, and been found again by Rogojin, and how after that she had almost promised to marry him, now received news that she had once more disappeared, almost on the very day fixed for her wedding, flying somewhere into the interior of Russia this time, and that Prince Muishkin had left all his affairs in the hands of Salaskin and disappeared also\u2014but whether he was with Nastasia, or had only set off in search of her, was unknown."
+            ],
+            "explanation": "The student's answer does not provide any relevant information or context related to the reference answer about Myshkin and Totsky's party."
         },
         {
             "question": "What illness had Prince Myshkin been treated for in Switzerland?",
-            "reference": "Epilepsy.",
-            "generated": "Prince Myshkin had been treated for epilepsy in Switzerland.",
+            "answer": "Prince Myshkin had been treated for epilepsy in Switzerland.",
             "correct": true,
+            "reference": "Epilepsy.",
+            "context_used": [
+                "The prince had, of course, at once received him, and had plunged into a conversation about Hippolyte. He had given the doctor an account of Hippolyte\u2019s attempted suicide; and had proceeded thereafter to talk of his own malady,\u2014of Switzerland, of Schneider, and so on; and so deeply was the old man interested by the prince\u2019s conversation and his description of Schneider\u2019s system, that he sat on for two hours.",
+                "Muishkin remembered the doctor\u2019s visit quite well. He remembered that Lebedeff had said that he looked ill, and had better see a doctor; and although the prince scouted the idea, Lebedeff had turned up almost immediately with his old friend, explaining that they had just met at the bedside of Hippolyte, who was very ill, and that the doctor had something to tell the prince about the sick man.",
+                "The prince had been left an orphan when quite a little child, and Pavlicheff had entrusted him to an old lady, a relative of his own, living in the country, the child needing the fresh air and exercise of country life. He was educated, first by a governess, and afterwards by a tutor, but could not remember much about this time of his life. His fits were so frequent then, that they made almost an idiot of him (the prince used the expression \u201cidiot\u201d himself). Pavlicheff had met Professor Schneider in Berlin, and the latter had persuaded him to send the boy to Switzerland, to Schneider\u2019s establishment there, for the cure of his epilepsy, and, five years before this time, the prince was sent off. But Pavlicheff had died two or three years since, and Schneider had himself supported the young fellow, from that day to this, at his own expense. Although he had not quite cured him, he had greatly improved his condition; and now, at last, at the prince\u2019s own desire, and because of a certain matter which came to the ears of the latter, Schneider had despatched the young man to Russia.",
+                "\u201cNever mind about him now, prince,\u201d said Colia. \u201cHe is all right and taking a nap after the journey. He is very happy to be here; but I think perhaps it would be better if you let him alone for today,\u2014he is very sensitive now that he is so ill\u2014and he might be embarrassed if you show him too much attention at first. He is decidedly better today, and says he has not felt so well for the last six months, and has coughed much less, too.\u201d",
+                "One of these incidents was a visit from Lebedeff. Lebedeff came rather early\u2014before ten\u2014but he was tipsy already. Though the prince was not in an observant condition, yet he could not avoid seeing that for at least three days\u2014ever since General Ivolgin had left the house Lebedeff had been behaving very badly. He looked untidy and dirty at all times of the day, and it was said that he had begun to rage about in his own house, and that his temper was very bad. As soon as he arrived this morning, he began to hold forth, beating his breast and apparently blaming himself for something."
+            ],
             "explanation": "The student's answer correctly identifies that Prince Myshkin had been treated for epilepsy, which matches the reference answer."
         },
         {
             "question": "Who is the daughter of General Epanchin that befriends Myshkin?",
-            "reference": "Aglaya Epanchin.",
-            "generated": "The provided text does not contain that information.",
+            "answer": "No information.",
             "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
+            "reference": "Aglaya Epanchin.",
+            "context_used": [
+                "General Epanchin took up his part and spoke in the character of father of a family; he spoke sensibly, and without wasting words over any attempt at sentimentality, he merely recorded his full admission of her right to be the arbiter of Totski\u2019s destiny at this moment. He then pointed out that the fate of his daughter, and very likely of both his other daughters, now hung upon her reply.",
+                "\u201cOf course not,\u201d replied the prince; \u201cthere are none, except myself. I believe I am the last and only one. As to my forefathers, they have always been a poor lot; my own father was a sublieutenant in the army. I don\u2019t know how Mrs. Epanchin comes into the Muishkin family, but she is descended from the Princess Muishkin, and she, too, is the last of her line.\u201d",
+                "\u201cOh yes, I knew General Epanchin well,\u201d General Ivolgin was saying at this moment; \u201che and Prince Nicolai Ivanovitch Muishkin\u2014whose son I have this day embraced after an absence of twenty years\u2014and I, were three inseparables. Alas one is in the grave, torn to pieces by calumnies and bullets; another is now before you, still battling with calumnies and bullets\u2014\u201d",
+                "A month after Muishkin\u2019s departure, Mrs. Epanchin received a letter from her old friend Princess Bielokonski (who had lately left for Moscow), which letter put her into the greatest good humour. She did not divulge its contents either to her daughters or the general, but her conduct towards the former became affectionate in the extreme. She even made some sort of confession to them, but they were unable to understand what it was about. She actually relaxed towards the general a little\u2014he had been long disgraced\u2014and though she managed to quarrel with them all the next day, yet she soon came round, and from her general behaviour it was to be concluded that she had had good news of some sort, which she would like, but could not make up her mind, to disclose.",
+                "It so happened that Prince S\u2014\u2014 introduced a distant relation of his own into the Epanchin family\u2014one Evgenie Pavlovitch, a young officer of about twenty-eight years of age, whose conquests among the ladies in Moscow had been proverbial. This young gentleman no sooner set eyes on Aglaya than he became a frequent visitor at the house. He was witty, well-educated, and extremely wealthy, as the general very soon discovered. His past reputation was the only thing against him."
+            ],
+            "explanation": "The student's answer does not provide the correct name 'Aglaya Epanchin' as required by the reference answer."
         },
         {
             "question": "What object does Rogozhin obsessively carry after his first meeting with Nastasya Filippovna?",
-            "reference": "He first gives her a large sum of money (Part I, Ch 1) and later keeps a nail-studded dagger to guard it.",
-            "generated": "The provided text does not contain that information.",
+            "answer": "No information.",
             "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
+            "reference": "He first gives her a large sum of money (Part I, Ch 1) and later keeps a nail-studded dagger to guard it.",
+            "context_used": [
+                "\u201cWhat I am really alarmed about, though,\u201d he said, \u201cis Aglaya Ivanovna. Rogojin knows how you love her. Love for love. You took Nastasia Philipovna from him. He will murder Aglaya Ivanovna; for though she is not yours, of course, now, still such an act would pain you,\u2014wouldn\u2019t it?\u201d",
+                "\u201cOh\u2014come! Surely you must know that there is to be a meeting today between Nastasia and Aglaya Ivanovna, and that Nastasia has been sent for on purpose, through Rogojin, from St. Petersburg? It has been brought about by invitation of Aglaya Ivanovna and my own efforts, and Nastasia is at this moment with Rogojin, not far from here\u2014at Dana Alexeyevna\u2019s\u2014that curious friend of hers; and to this questionable house Aglaya Ivanovna is to proceed for a friendly chat with Nastasia Philipovna, and for the settlement of several problems. They are going to play at arithmetic\u2014didn\u2019t you know about it? Word of honour?\u201d",
+                "A strange rumour began to circulate, meanwhile; no less than that the respectable and highly respected General Epanchin was himself so fascinated by Nastasia Philipovna that his feeling for her amounted almost to passion. What he thought to gain by Gania\u2019s marriage to the girl it was difficult to imagine. Possibly he counted on Gania\u2019s complaisance; for Totski had long suspected that there existed some secret understanding between the general and his secretary. At all events the fact was known that he had prepared a magnificent present of pearls for Nastasia\u2019s birthday, and that he was looking forward to the occasion when he should present his gift with the greatest excitement and impatience. The day before her birthday he was in a fever of agitation.",
+                "Nastasia listened to all this with great interest; but the conversation soon turned to Rogojin and his visit, and this theme proved of the greatest attraction to both Totski and the general.",
+                "\u201cHere\u2019s another alternative for me,\u201d said Nastasia, turning once more to the actress; \u201cand he does it out of pure kindness of heart. I know him. I\u2019ve found a benefactor. Perhaps, though, what they say about him may be true\u2014that he\u2019s an\u2014we know what. And what shall you live on, if you are really so madly in love with Rogojin\u2019s mistress, that you are ready to marry her\u2014eh?\u201d"
+            ],
+            "explanation": "The student's answer does not provide any relevant information or address the content of the reference answer."
         },
         {
             "question": "Which family invites Myshkin to live with them upon his arrival in Petersburg?",
+            "answer": "No information.",
+            "correct": false,
             "reference": "The Epanchin family.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
-        }
-    ],
-    "Comprehension": [
-        {
-            "question": "Why does Myshkin return to Russia at the novel\u2019s start?",
-            "reference": "Because his treatment for epilepsy in Switzerland has finished, and he wishes to reconnect with his homeland and distant relations.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
-        },
-        {
-            "question": "What motivates Nastasya Filippovna\u2019s self-destructive behavior?",
-            "reference": "Her history of abuse by Totsky leaves her with deep self-loathing; she oscillates between longing for redemption and a desire to punish herself.",
-            "generated": "Nastasia Philipovna's self-destructive behavior appears to be motivated by a deep sense of loathing and contempt for a man she is involved with. The text indicates that she is capable of ruining herself and even engaging in actions that could lead to severe consequences, such as imprisonment, simply for the pleasure of injuring this man. Additionally, it is suggested that she values nothing in the world, including herself, which further underscores her willingness to act destructively. Her actions seem to stem from a desire to exert power over someone she despises, reflecting a complex interplay of emotions that drives her behavior.",
-            "correct": false,
-            "explanation": "The student's answer does not correctly match the reference answer. The student discusses Nastasia Philipovna's self-destructive behavior and her contempt for a man she is involved with, but does not mention her history of abuse by Totsky, her longing for redemption, or her desire to punish herself."
-        },
-        {
-            "question": "How does Aglaya Epanchin\u2019s view of Myshkin change over the course of the novel?",
-            "reference": "She moves from seeing him as an eccentric na\u00eff (Part I, Ch 2) to admiring his moral integrity\u2014yet grows frustrated by his inability to navigate social conventions (Part IV, Ch 1\u20133).",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about the character's transition in perception."
-        },
-        {
-            "question": "What role does the \u201cgolden doll\u201d metaphor play in Prince Myshkin\u2019s self-understanding?",
-            "reference": "It reflects his sense of being both cherished and isolated: though people regard him as precious, he feels trapped in a gilded cage of others\u2019 expectations.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
-        },
-        {
-            "question": "Why does Myshkin give Nastasya Filippovna all his money at the trial scene?",
-            "reference": "To demonstrate that he values her above material considerations and to shame the men treating her as a commodity.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
-        }
-    ],
-    "Analysis": [
-        {
-            "question": "In what ways is Myshkin\u2019s epilepsy symbolic of spiritual insight?",
-            "reference": "His seizures, while a medical ailment, punctuate moments of profound moral clarity\u2014suggesting that true vision may require a form of \u201cotherness\u201d or suffering.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
-        },
-        {
-            "question": "Compare the approaches to love taken by Myshkin and Rogozhin.",
-            "reference": "Myshkin\u2019s love is selfless and sacrificial; Rogozhin\u2019s is possessive and jealous, driven by obsession and the need to possess.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
-        },
-        {
-            "question": "How does Dostoevsky use secondary characters like Ivolgin (\u201cHippolyte\u201d) to contrast with Myshkin?",
-            "reference": "Hippolyte\u2019s cynical atheism and manipulative pragmatism highlight Myshkin\u2019s innate faith and altruism, underscoring the novel\u2019s moral tensions.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
-        },
-        {
-            "question": "Discuss the social critique embedded in the Petersburg setting.",
-            "reference": "The city represents moral decay and superficiality: salons rife with gossip, gambling, and cruelty contrast sharply with Myshkin\u2019s purity.",
-            "generated": "The provided text contains several elements that suggest a social critique of the Petersburg setting:\n\n- **Change and Disconnection**: The mention of Petersburg being changed to the extent that even those familiar with it must \"relearn\" what they knew indicates a sense of disconnection from the past and a critique of the evolving social landscape. This suggests that the city and its society may be losing their essence or identity.\n\n- **Criticism of the Upper Class**: The prince expresses a deep-seated fear and skepticism about the upper stratum of Russian society. He describes it as \"worthless,\" suggesting that it has outlived its time and is only fit to die. This reflects a critique of the superficiality and pettiness of the interests and habits of the elite, implying that they are hindering progress and the emergence of new, more deserving leaders.\n\n- **Anxiety and Curiosity**: The prince's \"anguish\" and \"anxious curiosity\" about the members of the upper class reveal a desire to understand the truth behind the negative perceptions he has heard. This indicates a broader critique of societal norms and the reputations that precede individuals, suggesting that the reality may be more complex than the prevailing narratives.\n\n- **Contrast with Compassionate Figures**: The reference to the old state counsellor who devoted his life to helping prisoners contrasts sharply with the critique of the upper class. This highlights a potential moral failing among the elite, who are depicted as self-absorbed and disconnected from the struggles of the common people.\n\nOverall, the excerpts suggest a critique of the social dynamics in Petersburg, particularly focusing on the shortcomings of the upper class and the need for a reevaluation of societal values and priorities.",
-            "correct": false,
-            "explanation": "The student's answer is incorrect because it does not match the reference answer. The reference answer talks about the city representing moral decay and superficiality, contrasting with Myshkin\u2019s purity. The student's answer, however, discusses change and disconnection, criticism of the upper class, anxiety and curiosity, and contrast with compassionate figures, without mentioning the city's representation of moral decay and superficiality or Myshkin\u2019s purity."
-        },
-        {
-            "question": "How does the motif of mirrors and reflections function in the narrative?",
-            "reference": "Mirrors underscore themes of self-perception versus reality: characters often confront distorted reflections of their own desires, guilt, and illusions.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about the themes underscored by mirrors in literature."
-        }
-    ],
-    "Synthesis / Evaluation": [
-        {
-            "question": "Trace the evolution of Myshkin\u2019s relationships with both Nastasya Filippovna and Aglaya. What does this duality reveal about his character?",
-            "reference": "Myshkin\u2019s vacillation\u2014his desire to save Nastasya while drawn to Aglaya\u2019s innocence\u2014reveals boundless compassion but also his tragic inability to reconcile conflicting moral obligations.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about Myshkin's vacillation, his compassion, or his inability to reconcile conflicting moral obligations."
-        },
-        {
-            "question": "Argue whether Myshkin\u2019s innocence ultimately helps or harms those around him.",
-            "reference": "Position A: His innocence uplifts and challenges others (e.g. Aglaya\u2019s growth). Position B: It enables abuse\u2014Nastasya\u2019s torment intensifies and Rogozhin\u2019s obsession ends in violence.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer. The student did not provide any information related to the positions A and B."
-        },
-        {
-            "question": "Compare the theme of redemption in The Idiot with that in another Dostoevsky novel (e.g., Crime and Punishment).",
-            "reference": "In Crime and Punishment, redemption follows suffering and confession (Raskolnikov\u2019s moral agony), whereas in The Idiot, it\u2019s embodied by an almost Christ-like purity that feels both aspirational and impractical.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about the themes of redemption in 'Crime and Punishment' and 'The Idiot'."
-        },
-        {
-            "question": "How might The Idiot read differently if told from Nastasya Filippovna\u2019s perspective?",
-            "reference": "We\u2019d gain direct access to her trauma and inner conflict\u2014making her self-destructive choices more sympathetic.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer."
-        },
-        {
-            "question": "Evaluate Dostoevsky\u2019s use of \u201cthe idiot\u201d as both a narrative device and a philosophical figure.",
-            "reference": "As a device, Myshkin\u2019s naive outsider status exposes societal hypocrisies; philosophically, he embodies the Christian ideal of agape, challenging readers to consider the costs of pure goodness.",
-            "generated": "The provided text does not contain that information.",
-            "correct": false,
-            "explanation": "The student's answer does not match the reference answer. The student did not provide any information about Myshkin's role or significance."
+            "context_used": [
+                "\u201cH\u2019m! yes; did you live in Petersburg in former years?\u201d",
+                "\u201cOh, there is no reason, of course, and I suppose there is nothing in common between us, or very little; for if I am Prince Muishkin, and your wife happens to be a member of my house, that can hardly be called a \u2018reason.\u2019 I quite understand that. And yet that was my whole motive for coming. You see I have not been in Russia for four years, and knew very little about anything when I left. I had been very ill for a long time, and I feel now the need of a few good friends. In fact, I have a certain question upon which I much need advice, and do not know whom to go to for it. I thought of your family when I was passing through Berlin. \u2018They are almost relations,\u2019 I said to myself, \u2018so I\u2019ll begin with them; perhaps we may get on with each other, I with them and they with me, if they are kind people;\u2019 and I have heard that you are very kind people!\u201d",
+                "He jumped up and walked off as fast as he could towards the \u201cPetersburg Side.\u201d [One of the quarters of St. Petersburg.] He had asked someone, a little while before, to show him which was the Petersburg Side, on the banks of the Neva. He had not gone there, however; and he knew very well that it was of no use to go now, for he would certainly not find Lebedeff\u2019s relation at home. He had the address, but she must certainly have gone to Pavlofsk, or Colia would have let him know. If he were to go now, it would merely be out of curiosity, but a sudden, new idea had come into his head.",
+                "This circumstance had come into existence eighteen years before. Close to an estate of Totski\u2019s, in one of the central provinces of Russia, there lived, at that time, a poor gentleman whose estate was of the wretchedest description. This gentleman was noted in the district for his persistent ill-fortune; his name was Barashkoff, and, as regards family and descent, he was vastly superior to Totski, but his estate was mortgaged to the last acre. One day, when he had ridden over to the town to see a creditor, the chief peasant of his village followed him shortly after, with the news that his house had been burnt down, and that his wife had perished with it, but his children were safe.",
+                "Evgenie himself was very likely going abroad also; so were Prince S. and his wife, if affairs allowed of it; the general was to stay at home. They were all at their estate of Colmina now, about twenty miles or so from St. Petersburg. Princess Bielokonski had not returned to Moscow yet, and was apparently staying on for reasons of her own. Lizabetha Prokofievna had insisted that it was quite impossible to remain in Pavlofsk after what had happened. Evgenie had told her of all the rumours current in town about the affair; so that there could be no talk of their going to their house on the Yelagin as yet."
+            ],
+            "explanation": "The student's answer does not provide the correct information, which is the name of the family, 'The Epanchin family.'"
         }
     ]
 }

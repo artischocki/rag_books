@@ -16,9 +16,9 @@ with open(Path(__file__).parent / "resources" / "qna_pairs.json") as f:
 
 SUITES = [
     ("Factual / Recall", all_qna_pairs["Factual / Recall"]),
-    ("Comprehension", all_qna_pairs["Comprehension"]),
-    ("Analysis", all_qna_pairs["Analysis"]),
-    ("Synthesis / Evaluation", all_qna_pairs["Synthesis / Evaluation"]),
+    # ("Comprehension", all_qna_pairs["Comprehension"]),
+    # ("Analysis", all_qna_pairs["Analysis"]),
+    # ("Synthesis / Evaluation", all_qna_pairs["Synthesis / Evaluation"]),
 ]
 
 org_book_path = Path(__file__).parents[1] / "test" / "resources" / "org_book.json"

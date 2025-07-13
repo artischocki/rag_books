@@ -27,6 +27,6 @@ def evaluate_with_llm(student_answer: str, reference: str, client) -> dict:
         },
     ]
     resp = client.chat.completions.create(
-        model="gpt-4", messages=messages, temperature=0.0
+        model="gpt-4o-mini", messages=messages, temperature=0
     )
     return json.loads(resp.choices[0].message.content.strip())

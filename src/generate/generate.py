@@ -32,6 +32,7 @@ class OpenAIGenerator:
                  'The provided text does not contain that information.'
             2. Answer style:
                - Be helpful, precise, and to the point.
+               - It is not necessary to reference the provided text in your answers.
                - For interpretive or analytical questions, make clear that your interpretation is grounded in the text.
                - If the user asks for a summary, synthesize only what’s in the retrieved excerpts.
             
