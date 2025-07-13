@@ -1,0 +1,90 @@
+{
+  "Factual / Recall": [
+    {
+      "question": "Where does Prince Myshkin first meet Nastasya Filippovna?",
+      "answer": "At Totsky’s party in Petersburg, when Myshkin interrupts a cruel spectacle in which guests are betting on who will secure Nastasya’s attention."
+    },
+    {
+      "question": "What illness had Prince Myshkin been treated for in Switzerland?",
+      "answer": "Epilepsy."
+    },
+    {
+      "question": "Who is the daughter of General Epanchin that befriends Myshkin?",
+      "answer": "Aglaya Epanchin."
+    },
+    {
+      "question": "What object does Rogozhin obsessively carry after his first meeting with Nastasya Filippovna?",
+      "answer": "A large sum of money he offers her—and later a nail-studded dagger which he uses to guard the money."
+    },
+    {
+      "question": "Which family invites Myshkin to live with them upon his arrival in Petersburg?",
+      "answer": "The Epanchin family."
+    }
+  ],
+  "Comprehension": [
+    {
+      "question": "Why does Myshkin return to Russia at the novel’s start?",
+      "answer": "Because his treatment for epilepsy in Switzerland has finished, and he wishes to reconnect with his homeland and distant relations."
+    },
+    {
+      "question": "What motivates Nastasya Filippovna’s self-destructive behavior?",
+      "answer": "Her history of abuse by Totsky leaves her with deep self-loathing; she oscillates between longing for redemption and a desire to punish herself."
+    },
+    {
+      "question": "How does Aglaya Epanchin’s view of Myshkin change over the course of the novel?",
+      "answer": "She moves from seeing him as an eccentric naïf to someone she deeply admires for his moral integrity—yet she also grows frustrated by his inability to navigate social conventions."
+    },
+    {
+      "question": "What role does the “golden doll” metaphor play in Prince Myshkin’s self-understanding?",
+      "answer": "It reflects his sense of being both cherished and isolated: though people regard him as precious, he feels trapped in a gilded cage of others’ expectations."
+    },
+    {
+      "question": "Why does Myshkin give Nastasya Filippovna all his money at the trial scene?",
+      "answer": "To demonstrate that he values her above material considerations and to shame the men treating her as a commodity."
+    }
+  ],
+  "Analysis": [
+    {
+      "question": "In what ways is Myshkin’s epilepsy symbolic of spiritual insight?",
+      "answer": "His seizures, while a medical ailment, also punctuate moments of profound moral clarity—suggesting that true vision may require a form of “otherness” or suffering."
+    },
+    {
+      "question": "Compare the approaches to love taken by Myshkin and Rogozhin.",
+      "answer": "Myshkin’s love is selfless and sacrificial, seeking only the other’s good; Rogozhin’s is possessive and jealous, driven by obsession and the need to possess."
+    },
+    {
+      "question": "How does Dostoevsky use secondary characters like Ivolgin (“Hippolyte”) to contrast with Myshkin?",
+      "answer": "Hippolyte’s cynical atheism and manipulative pragmatism highlight Myshkin’s innate faith and altruism, underscoring the novel’s moral tensions."
+    },
+    {
+      "question": "Discuss the social critique embedded in the Petersburg setting.",
+      "answer": "The city represents moral decay and superficiality: salons rife with gossip, gambling, and cruelty contrast sharply with Myshkin’s purity and expose the emptiness of high society."
+    },
+    {
+      "question": "How does the motif of mirrors and reflections function in the narrative?",
+      "answer": "Mirrors underscore themes of self-perception versus reality: characters often confront distorted reflections of their own desires, guilt, and illusions."
+    }
+  ],
+  "Synthesis / Evaluation": [
+    {
+      "question": "Trace the evolution of Myshkin’s relationships with both Nastasya Filippovna and Aglaya. What does this duality reveal about his character?",
+      "answer": "Myshkin’s painful vacillation—his impossible desire to save Nastasya while also drawn to Aglaya’s hopeful innocence—reveals his boundless compassion but also his tragic inability to reconcile conflicting moral obligations."
+    },
+    {
+      "question": "Argue whether Myshkin’s innocence ultimately helps or harms those around him.",
+      "answer": "Position A: His innocence uplifts and challenges others to confront their own failings, as with Aglaya’s growth. Position B: It naively enables abuse—Nastasya’s torment intensifies and Rogozhin’s obsession ends in violence."
+    },
+    {
+      "question": "Compare the theme of redemption in The Idiot with that in another Dostoevsky novel (e.g., Crime and Punishment).",
+      "answer": "In Crime and Punishment, redemption follows suffering and confession (Raskolnikov’s moral agony), whereas in The Idiot, it’s embodied by an almost Christ-like purity that feels both aspirational and painfully impractical."
+    },
+    {
+      "question": "How might The Idiot read differently if told from Nastasya Filippovna’s perspective?",
+      "answer": "We’d gain direct access to her trauma and inner conflict—her oscillation between contempt for her abusers and yearning for genuine love—making her self-destructive choices perhaps more sympathetic."
+    },
+    {
+      "question": "Evaluate Dostoevsky’s use of “the idiot” as both a narrative device and a philosophical figure.",
+      "answer": "As a device, Myshkin’s naive outsider status exposes societal hypocrisies; philosophically, he embodies the Christian ideal of agape, challenging readers to consider the costs and impossibility of pure goodness in an imperfect world."
+    }
+  ]
+}
