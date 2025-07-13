@@ -1,0 +1,39 @@
+{
+    "Factual / Recall": [
+        {
+            "question": "Where does Prince Myshkin first meet Nastasya Filippovna?",
+            "reference": "At Totsky\u2019s party in Petersburg, when Myshkin interrupts a cruel spectacle in which guests are betting on who will secure Nastasya\u2019s attention.",
+            "generated": "Prince Myshkin first meets Nastasia Philipovna at a gathering or event, as indicated by the excerpt where he is breathlessly asking about her location and later expresses his gladness at meeting Colia, suggesting he is in a social setting. However, the specific details of the exact location of their first meeting are not provided in the excerpts.",
+            "correct": "\u274cFalse",
+            "explanation": "The student's answer is incorrect because it does not specify that the meeting took place at Totsky\u2019s party in Petersburg, as stated in the reference answer."
+        },
+        {
+            "question": "What illness had Prince Myshkin been treated for in Switzerland?",
+            "reference": "Epilepsy.",
+            "generated": "Prince Myshkin had been treated for epilepsy in Switzerland.",
+            "correct": "\u2705True",
+            "explanation": "The student's answer correctly identifies that Prince Myshkin had been treated for epilepsy, which matches the reference answer."
+        },
+        {
+            "question": "Who is the daughter of General Epanchin that befriends Myshkin?",
+            "reference": "Aglaya Epanchin.",
+            "generated": "The daughter of General Epanchin who befriends Myshkin is Aglaya.",
+            "correct": "\u2705True",
+            "explanation": "The student's answer correctly identifies Aglaya Epanchin as the daughter of General Epanchin who befriends Myshkin."
+        },
+        {
+            "question": "What object does Rogozhin obsessively carry after his first meeting with Nastasya Filippovna?",
+            "reference": "He first gives her a large sum of money (Part I, Ch 1) and later keeps a nail-studded dagger to guard it.",
+            "generated": "Rogozhin obsessively carries a \"wooden box\" after his first meeting with Nastasya Filippovna.",
+            "correct": "\u274cFalse",
+            "explanation": "The student's answer does not match the reference. The reference talks about a large sum of money and a nail-studded dagger, while the student mentions a 'wooden box'."
+        },
+        {
+            "question": "Which family invites Myshkin to live with them upon his arrival in Petersburg?",
+            "reference": "The Epanchin family.",
+            "generated": "The family that invites Myshkin to live with them upon his arrival in Petersburg is the Lebedeff family.",
+            "correct": "\u274cFalse",
+            "explanation": "The student's answer is incorrect. The family that invites Myshkin to live with them upon his arrival in Petersburg is the Epanchin family, not the Lebedeff family."
+        }
+    ]
+}
