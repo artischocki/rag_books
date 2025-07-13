@@ -14,9 +14,9 @@ with open(Path(__file__).parent / "resources" / "qna_pairs.json") as f:
 
 SUITES = [
     ("Factual / Recall", all_qna_pairs["Factual / Recall"]),
-    # ("Comprehension", all_qna_pairs["Comprehension"]),
-    # ("Analysis", all_qna_pairs["Analysis"]),
-    # ("Synthesis / Evaluation", all_qna_pairs["Synthesis / Evaluation"]),
+    ("Comprehension", all_qna_pairs["Comprehension"]),
+    ("Analysis", all_qna_pairs["Analysis"]),
+    ("Synthesis / Evaluation", all_qna_pairs["Synthesis / Evaluation"]),
 ]
 
 org_book_path = Path(__file__).parents[1] / "test" / "resources" / "org_book.json"
@@ -24,7 +24,7 @@ BOOK_RAG = BookRag(org_book_path)
 
 CLIENT = OpenAI()
 
-OUTPUT_JSON = Path(__file__).parent / "test_result_no_adaptations.json"
+OUTPUT_JSON = Path(__file__).parent / "eval_results" / "test_result_no_adaptations.json"
 if OUTPUT_JSON.exists():
     raise FileExistsError(
         f"The file {OUTPUT_JSON} already exists. Please change the name of the output json, so the results can later be evaluated."
@@ -58,7 +58,7 @@ def test_single_qa(request, suite_name, question, reference):
             "question": question,
             "reference": reference,
             "generated": generated,
-            "correct": "✅" + str(correct) if correct else "❌" + str(correct),
+            "correct": correct,
             "explanation": result["explanation"],
         }
     )
