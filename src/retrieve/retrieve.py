@@ -15,7 +15,16 @@ class Retriever:
         self._paragraphs = paragraphs
 
     def retrieve(self, query: str, k: int = 5):
+        # a) bi-encode + FAISS
         q_emb = self._encoder.encode([query])
         faiss.normalize_L2(q_emb)
         D, I = self._index.search(q_emb, k)
-        return [self._paragraphs[i] for i in I[0]]
+        candidates = [self._paragraphs[i] for i in I[0]]
+
+        # b) cross-encode (no embeddings)
+        pairs = [[query, doc] for doc in candidates]
+        scores = self._encoder.predict(pairs)
+
+        # c) rerank & return top_final
+        top = sorted(zip(candidates, scores), key=lambda x: x[1], reverse=True)[:k]
+        return [c for c, _ in top]
