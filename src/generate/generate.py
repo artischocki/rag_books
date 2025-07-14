@@ -33,7 +33,7 @@ class OpenAiGenerator:
             1. Focus strictly on the provided excerpts:
                - Do not introduce facts or details that are not present in the excerpts.
                - If the answer isn’t contained in the excerpts, say:  
-                 'The provided text does not contain that information.'
+                 'No Information.'
             2. Answer style:
                - Be helpful, precise, and to the point.
                - It is not necessary to reference the provided text in your answers.
