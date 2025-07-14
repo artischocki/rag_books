@@ -7,7 +7,7 @@ from .teacher_llm import evaluate_with_llm
 
 from src.rag import BookRag
 
-TEST_NAME = "test_result_adapted_prompt"
+TEST_NAME = "test_result_2_stage_retrieval"
 
 
 with open(Path(__file__).parent / "resources" / "qna_pairs.json") as f:
