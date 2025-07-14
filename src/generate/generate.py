@@ -1,23 +1,27 @@
 from openai import OpenAI
 import os
 
-from src.preprocess.embed import EmbeddingModel
-from src.retrieve.retrieve import retrieve
+from src.encode.embed import EncoderModel
+from src.retrieve.retrieve import Retriever
+from src.retrieve.index import FaissIndexer
 
 
-class OpenAIGenerator:
-    def __init__(self, embedding_model: EmbeddingModel, index, paragraphs):
+class OpenAiGenerator:
+    def __init__(
+        self, encoder: EncoderModel, indexer: FaissIndexer, paragraphs: list[str]
+    ):
         self._client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-        self._embedding_model = embedding_model
-        self._index = index
+        self._encoder = encoder
+        self._indexer = indexer
         self._paragraphs = paragraphs
+        self._retriever = Retriever(self._encoder, self._indexer, self._paragraphs)
 
     def answer(
         self,
         question: str,
     ):
-        docs = retrieve(
-            self._embedding_model._embed_model, self._index, self._paragraphs, question
+        docs = self._retriever.retrieve(
+            question,
         )
         context = "\n\n---\n\n".join(docs)
         prompt = f"""

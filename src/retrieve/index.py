@@ -1,10 +1,9 @@
-from numpy._core.numeric import ndarray
 import faiss
 import numpy as np
 from pathlib import Path
 
 
-class FaissIndex:
+class FaissIndexer:
     def __init__(
         self,
         embeddings: np.ndarray | None = None,
@@ -38,6 +37,11 @@ class FaissIndex:
         print(f"Writing index to: {index_path}")
         faiss.write_index(self._index, str(index_path))
         return
+
+    def search(self, q_emb: np.ndarray, k: int):
+        if self._index is None:
+            raise ValueError("Index has not been created yet.")
+        return self._index.search(q_emb, k)  # TODO
 
     @property
     def index(self):

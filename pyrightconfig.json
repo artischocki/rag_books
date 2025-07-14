@@ -1,0 +1,6 @@
+{
+  // Basis-Verzeichnis für virtuelle Umgebungen (Poetry speichert sie hier)
+  "venvPath": "/home/artur/code/rag_books",
+  // Name des konkreten Envs (Ordnername ohne Pfad)
+  "venv": ".venv",
+}
